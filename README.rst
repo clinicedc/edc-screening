@@ -4,7 +4,7 @@
 edc-screening
 -------------
 
-Adverse event handling
+Screening fields and method mixins
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-screening.svg
     :target: https://pypi.python.org/pypi/edc-screening
