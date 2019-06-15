@@ -25,7 +25,7 @@ setup(
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/meta-trial/edc_screening',
+    url='https://github.com/clinicedc/edc_screening',
     license='GPL license, see LICENSE',
     description='Screening fields and method mixins.',
     long_description=README,
