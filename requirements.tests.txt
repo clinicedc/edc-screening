@@ -3,3 +3,6 @@ model-mommy
 django-crypto-fields
 django-revision
 edc_test_utils
+edc_sites
+edc_reportable
+edc_metadata
