@@ -1,5 +1,5 @@
 faker
-model-mommy
+model-bakery
 django-crypto-fields
 django-revision
 edc_test_utils
