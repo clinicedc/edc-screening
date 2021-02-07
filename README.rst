@@ -1,5 +1,5 @@
 
-|pypi| |travis| |codecov| |downloads|
+|pypi| |actions| |codecov| |downloads|
 
 edc-screening
 -------------
@@ -8,10 +8,10 @@ Screening fields and method mixins
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-screening.svg
     :target: https://pypi.python.org/pypi/edc-screening
-    
-.. |travis| image:: https://travis-ci.com/clinicedc/edc-screening.svg?branch=develop
-    :target: https://travis-ci.com/clinicedc/edc-screening
-    
+
+.. |actions| image:: https://github.com/clinicedc/edc-screening/workflows/build/badge.svg?branch=develop
+  :target: https://github.com/clinicedc/edc-screening/actions?query=workflow:build
+
 .. |codecov| image:: https://codecov.io/gh/clinicedc/edc-screening/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/clinicedc/edc-screening
 
