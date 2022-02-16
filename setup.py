@@ -23,6 +23,7 @@ setup(
     url="https://github.com/clinicedc/edc_screening",
     license="GPL license, see LICENSE",
     description="Screening fields and method mixins.",
+    long_description_content_type="text/x-rst",
     long_description=README,
     zip_safe=False,
     keywords="django edc screening",
