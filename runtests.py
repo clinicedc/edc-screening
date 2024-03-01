@@ -20,6 +20,7 @@ project_settings = DefaultTestSettings(
         "edc_consent.E001",
     ],
     EDC_SITES_REGISTER_DEFAULT=True,
+    SUBJECT_SCREENING_MODEL="screening_app.subjectscreening",
     SUBJECT_VISIT_MODEL="edc_visit_tracking.subjectvisit",
     INSTALLED_APPS=[
         "django.contrib.admin",
@@ -35,6 +36,7 @@ project_settings = DefaultTestSettings(
         "edc_action_item.apps.AppConfig",
         "edc_appointment.apps.AppConfig",
         "edc_auth.apps.AppConfig",
+        "edc_consent.apps.AppConfig",
         "edc_data_manager.apps.AppConfig",
         "edc_device.apps.AppConfig",
         "edc_facility.apps.AppConfig",
@@ -52,6 +54,7 @@ project_settings = DefaultTestSettings(
         "edc_timepoint.apps.AppConfig",
         "edc_visit_schedule.apps.AppConfig",
         "edc_visit_tracking.apps.AppConfig",
+        "screening_app.apps.AppConfig",
         "edc_appconfig.apps.AppConfig",
     ],
     DASHBOARD_BASE_TEMPLATES={
