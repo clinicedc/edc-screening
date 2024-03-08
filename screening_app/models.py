@@ -60,3 +60,8 @@ class SubjectConsent(
 
     class Meta(ConsentModelMixin.Meta):
         pass
+
+
+class SubjectConsentV1(SubjectConsent):
+    class Meta:
+        proxy = True
