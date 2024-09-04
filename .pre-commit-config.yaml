@@ -10,10 +10,10 @@ repos:
           - "-x *test*.py"
 
   - repo: https://github.com/psf/black
-    rev: 24.4.2
+    rev: 24.2.0
     hooks:
       - id: black
-        language_version: python3.11
+        language_version: python3.12
 
   - repo: https://github.com/pycqa/flake8
     rev: 7.0.0
@@ -28,7 +28,7 @@ repos:
       - id: isort
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v4.5.0
     hooks:
       - id: requirements-txt-fixer
         files: requirements/.*\.txt$
@@ -42,7 +42,7 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.35.1
+    rev: v1.34.0
     hooks:
       - id: yamllint
         args:
